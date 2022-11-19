@@ -1,6 +1,8 @@
 # arrow-declaration-to-examples
 
-TOOD
+TODO
+
+Currently just an example of using `StartAndCollect`.
 
 ## Running
 
@@ -22,4 +24,48 @@ make
 
 ```
 ./example
+```
+
+## Output
+
+The above should produce:
+
+```
+a: int32
+b: bool
+----
+a:
+  [
+    [
+      0,
+      4
+    ],
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10
+    ]
+  ]
+b:
+  [
+    [
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false
+    ]
+  ]
 ```
